@@ -352,7 +352,7 @@ nav {
   }
 }
 .offer {
-  background-image: url(./Pics/premium_photo-1675237625862-d982e7f44696.avif);
+  background-image: url(./Pics/Coffee-background1.avif);
   position: relative;
   width: 100%;
   height: 70vh;
@@ -540,7 +540,7 @@ nav {
   margin-top: 2rem;
   width: 80%;
   height: 80vh;
-  background-image: url(./Pics/pexels-photo-4109748.webp);
+  background-image: url(./Pics/Coffee-background2.webp);
   .offerr {
     display: flex;
     flex-direction: column;
