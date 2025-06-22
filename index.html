@@ -18,6 +18,7 @@
     <!-- Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="icon" href="Pics/Coffee_cup_icon.svg.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <!-- first page -->
@@ -65,7 +66,7 @@
         </div>
       </nav>
       <!-- Scroll -->
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" style="position: relative">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" style="position: relative">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./Pics/carousel-1.jpg" class="d-block w-100"/>
@@ -95,7 +96,7 @@
     </div>
     <div class="homew">
         <h3>We Have Been Serving</h3>
-        <h1>COFFEE</h1>
+        <h1 class="animate__animated animate__heartBeat">COFFEE</h1>
         <h2>* SINCE 1950 *</h2>
     </div>
     </div>
@@ -113,7 +114,7 @@
       </div>
       <div class="down">
         <div class="container">
-          <div class="one">
+          <div class="one animate__animated scroll-animate" data-animate="animate__bounceInLeft">
             <h2>Our Story</h2>
             <h6>
               Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet
@@ -127,10 +128,10 @@
             </p>
             <button>Learn More</button>
           </div>
-          <div class="two">
+          <div class="two animate__animated scroll-animate" data-animate="animate__bounceInDown">
             <img src="./Pics/about.png" alt="" />
           </div>
-          <div class="three">
+          <div class="three animate__animated scroll-animate" data-animate="animate__bounceInRight">
             <h2>Our Vision</h2>
             <p>
               Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo
@@ -178,8 +179,10 @@
       </div>
       <div class="down">
         <div class="container">
-          <div class="First">
-            <div class="img"><img src="./Pics/service-1.jpg" /></div>
+          <div class="First animate__animated scroll-animate" data-animate="animate__fadeInTopLeft">
+            <div class="img">
+              <img src="./Pics/service-1.jpg" />
+            </div>
             <div class="words">
               <div class="d-flex line">
                 <img src="./Pics/car.png" class="icon" />
@@ -194,7 +197,7 @@
               </div>
             </div>
           </div>
-          <div class="Second">
+          <div class="Second animate__animated scroll-animate" data-animate="animate__fadeInTopRight">
             <div class="img"><img src="./Pics/service-2.jpg" /></div>
             <div class="words">
               <div class="d-flex line">
@@ -210,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="Third">
+          <div class="Third animate__animated scroll-animate" data-animate="animate__fadeInBottomLeft">
             <div class="img"><img src="./Pics/service-3.jpg" /></div>
             <div class="words">
               <div class="d-flex line">
@@ -226,7 +229,7 @@
               </div>
             </div>
           </div>
-          <div class="Fourth">
+          <div class="Fourth animate__animated scroll-animate" data-animate="animate__fadeInBottomRight">
             <div class="img"><img src="./Pics/service-4.jpg" /></div>
             <div class="words">
               <div class="d-flex line">
@@ -582,5 +585,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
