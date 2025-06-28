@@ -63,5 +63,3 @@ $(".owl-carousel").owlCarousel({
   document.querySelectorAll('.scroll-animate').forEach(el => {
     observer.observe(el);
   });
-
-  

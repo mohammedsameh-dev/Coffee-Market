@@ -18,7 +18,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(51, 33, 29, 0.7);
+  background-color: rgba(51, 33, 29, 0.7);
   z-index: 1;
 }
 .dropdown-menu .dropdown-item {
@@ -259,7 +259,7 @@ nav {
   .two {
     width: 33.33%;
     img {
-      width: 349.987px;
+      width: 100%;
       height: 500px;
       object-fit: cover;
     }
@@ -355,6 +355,7 @@ nav {
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  overflow: hidden;
   .up {
     h1 {
       color: rgb(45, 22, 7);
@@ -608,7 +609,7 @@ nav {
   }
 }
 .offer {
-  background-image: url(./Pics/Coffee-background1.avif);
+  background-image: url(../Pics/Coffee-background1.avif);
   position: relative;
   width: 100%;
   height: 70vh;
@@ -914,16 +915,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-position: relative;
+  position: relative;
 }
 .pages {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  width: 80%;
+  width: 80%; 
   height: 80vh;
-  background-image: url(./Pics/Coffee-background2.webp);
+  background-image: url(../Pics/Coffee-background2.webp);
   @media screen and (max-width:768px) {
     width: 100%;
     display: flex;
@@ -1049,29 +1050,49 @@ button {
 .colorr1 {
   background-color: rgba(49, 32, 26, 0.727);
   height: 80vh;
-  width: 78.5%;
+  width: 78.5% !important;
   position: absolute;
   z-index: 1;
   margin-top: 2rem;
-  @media screen and (max-width:768px){
-    width: 94.5% !important;
-    height: 97.5% !important;
+  @media screen and (min-width:320px) and (max-width:375px){
+    width: 92.6% !important;
+    height: 97.4% !important;
   }
-}
-.colorr2 {
+  @media screen and (min-width:374px) and (max-width:425px){
+    width: 93.5% !important;
+    height: 97.4% !important;
+  }
+    @media screen and (min-width:425px) and (max-width:768px){
+    width: 95.2% !important;
+    height: 97.4% !important;
+  }
+} 
+ .colorr2 {
   background-color: rgba(49, 32, 26, 0.727);
   height: 80vh;
   width: 32%;
   position: absolute;
   z-index: 2;
   right: 8.8rem;
-  @media screen and (max-width:768px) {
+  @media screen and (min-width:320px) and (max-width:375px) {
     bottom: 0;
-    width: 95%;
+    width: 92.6% !important;
+    right: 12px;
+    height: 50% !important;
+}
+  @media screen and (min-width:374px) and (max-width:425px) {
+    bottom: 0;
+    width: 93.3%;
     right: 12px;
     height: 50%;
 }
+  @media screen and (min-width:425px) and (max-width:768px) {
+    bottom: 0;
+    width: 95% !important;
+    right: 12px;
+    height: 50%;
 }
+} 
 .clients {
   padding-top: 5rem;
   display: flex;
@@ -1145,7 +1166,7 @@ button {
 .footer {
   width: 100%;
   height: 70vh;
-  background-image: url(./Pics/last.jpeg);
+  background-image: url(../Pics/last.jpeg);
   position: relative;
   display: flex;
   flex-direction: column;
